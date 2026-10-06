@@ -30,7 +30,16 @@ r.draw()
 
 Map symbols: `^ > v <` is the robot, `*` is its path, `#` is an obstacle, `.` is an empty cell.
 
-## Ideas for the future
+## Python concepts used
 
-- Treasures and a goal flag
-- Undo and command history
+- Classes and objects (`__init__`, `__str__`, `__repr__`, class attributes)
+- Methods and helper functions (including a function outside the class)
+- Lists, tuples, sets and dictionaries
+- `for` and `while` loops, nested loops, `break`, `continue`, `return`
+- `if` / `elif` / `else` conditions
+- String methods (`upper()`, `isdigit()`) and f-strings
+- Modulo (`%`) for turning left and right
+- Error handling with `raise ValueError` and `try` / `except`
+- The `random` module
+- Default parameters and keyword arguments
+- `if __name__ == "__main__":`
