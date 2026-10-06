@@ -121,8 +121,6 @@ class Robot:
                     if not self.move_backward():
                         return count
                     count += 1
-                else:
-                    print(f"Invalid command: {command}")
         return count
 
     def draw(self):
